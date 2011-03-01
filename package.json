@@ -1,11 +1,11 @@
 {
     "name": "errbacker",
-    "version": "0.2.0",
+    "version": "0.2.1",
 
     "author": "Devgru <git@devg.ru> (http://home.devg.ru)",
     "repository": { "type": "git", "url": "http://github.com/devgru/errbacker.git" },
 
-    "description": "Simple module to curry functions with similar errback",
+    "description": "Splits any function(error, result1, result2...) into two separate functions (errback and callback) via currying errback.",
     "keywords": [ "errback" ],
 
     "modules": { "index.js": "index.js"
