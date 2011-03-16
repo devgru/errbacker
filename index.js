@@ -7,7 +7,13 @@ var errbacker = module.exports = {
             }
             var results = arguments
             Array.prototype.shift.call(results) //removing first
-            if (callback) callback.apply(null, results)
+            if (callback) {
+                try {
+                    callback.apply(null, results)
+                } catch (e) {
+                    errback(e)
+                }
+            }
         }
     },
 

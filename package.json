@@ -1,6 +1,6 @@
 {
     "name": "errbacker",
-    "version": "0.2.1",
+    "version": "0.2.2",
 
     "author": "Devgru <git@devg.ru> (http://home.devg.ru)",
     "repository": { "type": "git", "url": "http://github.com/devgru/errbacker.git" },
