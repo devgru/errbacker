@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/devgru/errbacker.png)](http://travis-ci.org/devgru/errbacker)
 Use like this:
 
     var errbacker = require('errbacker')
